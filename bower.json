@@ -2,6 +2,7 @@
   "name": "smartvel",
   "version": "2.0.0",
   "homepage": "https://github.com/smartvel/smartvel",
+  "description": "HTML components to show Smartvel event streams on your sites in no time",
   "authors": [
     "Jose Antonio Leiva Izquierdo <jleivaizq@smartvel.com>"
   ],
