@@ -49,5 +49,8 @@
     "leaflet.markercluster": "https://github.com/Leaflet/Leaflet.markercluster.git#e63f39e5fc5488c9381d97dee72bea0677095cd1",
     "ics.js": "~0.1.3",
     "matchmedia-ng": "~1.0.5"
+  },
+  "resolutions": {
+    "angular": "1.3.x"
   }
 }
