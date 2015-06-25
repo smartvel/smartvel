@@ -15,6 +15,14 @@
     "examples",
     "scripts/*bundle*.js"
   ],
+  "main": [
+    "scripts/smartvel-calendar.js",
+    "styles/smartvel-calendar.css",
+    "scripts/smartvel-map.js",
+    "styles/smartvel-map.css",
+    "scripts/smartvel-highlights.js",
+    "styles/smartvel-highlights.css"
+  ],
   "dependencies": {
     "lodash": "^3.1.0",
     "momentjs": "^2.9.0",
