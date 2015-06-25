@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic integration of Smartvel products</title>
+  <!--Load Smartvel styles-->
+  <link rel="stylesheet" href="../styles/smartvel-map.css">
+</head>
+<body>
+  <h1>Map</h1>
+  <!--Insert a node whose id is "smartvel"-->
+  <div id="smartvel">
+    <!--Insert the product inside that node-->
+    <smt-map  search-box
+              key="5d2cb6ff-cb05-4008-a5f4-0865db5ee80d"
+              latitude="37.39089"
+              longitude="-5.97132"
+              zoom="12"
+              allow-tickets>
+    </smt-map>
+  </div>
+<!--Conditionally load the library for old browsers-->
+
+<!--Load Smartvel libs-->
+<script src="../styles/smartvel-map-bundle.js"></script>
+
+<!--Initialize the product-->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      angular.bootstrap(document, ['smartvel-map']);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic integration of Smartvel products</title>
+  <!--Load Smartvel styles-->
+  <link rel="stylesheet" href="../styles/smartvel-inspire.css">
+</head>
+<body>
+  <h1>Inspire</h1>
+  <!--Insert a node whose id is "smartvel"-->
+  <div id="smartvel">
+    <!--Insert the product inside that node-->
+    <smt-inspire search-box key="5d2cb6ff-cb05-4008-a5f4-0865db5ee80d">
+      <h1>
+        Test message included in inspare panel header
+      </h1>
+    </smt-inspire>
+  </div>
+<!--Conditionally load the library for old browsers-->
+
+<!--Load Smartvel libs-->
+<script src="../scripts/smartvel-inspire-bundle.js"></script>
+
+<!--Initialize the product-->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      angular.bootstrap(document, ['smartvel-inspire']);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic integration of Smartvel products</title>
+  <!--Load Smartvel styles-->
+  <link rel="stylesheet" href="../styles/smartvel-calendar.css">
+  <link rel="stylesheet" href="../styles/defaults.css">
+</head>
+<body>
+  <h1>Calendar</h1>
+  <!--Insert a node whose id is "smartvel"-->
+  <div id="smartvel">
+    <!--Insert the product inside that node-->
+    <smt-calendar search-box key="5d2cb6ff-cb05-4008-a5f4-0865db5ee80d"></smt-calendar>
+  </div>
+
+<!--Load Smartvel libs-->
+<script src="../scripts/smartvel-calendar-bundle.js"></script>
+
+<!--Initialize the product-->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      angular.bootstrap(document, ['smartvel-calendar']);
+  });
+</script>
+</body>
+</html>
