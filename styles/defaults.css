@@ -1,0 +1,137 @@
+/*
+ * SEARCH BOX
+ */
+
+/* Styles for the Reload button */
+.searchbox-field.submit > button.btn-primary {
+  background-color: #337AB7;
+  border-color: #2E6DA4;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Styles for the search box labels */
+.searchbox label {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+/* Styles for the searchbox inputs */
+.searchbox .btn-group > button,
+.searchbox .searchbox-field > input,
+.searchbox .searchbox-field > select {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/*
+ * MAP
+ */
+
+/* Styles for the Map groups */
+.marker-cluster-small,
+.marker-cluster-small div,
+.marker-cluster-medium,
+.marker-cluster-medium div,
+.marker-cluster-large,
+.marker-cluster-large div {
+  background-color: rgba(20, 88, 132, 0.6) !important;
+  color: white !important;
+}
+
+
+/*
+ * CALENDAR
+ */
+
+/* Styles for the name of the weekdays */
+smt-calendar div.weekday {
+  background-color: #D3D3D3;
+  color: #000;
+  font-family: "Open Sans",sans-serif;
+  font-size: 11.2px;
+  font-weight: 300;
+}
+
+/* Styles for the heading's background */
+
+
+/*
+ * HIGHLIGHTS
+ */
+
+/* Styles for the heading sentence */
+smt-highlights h1 {
+  color: #000;
+  font-size: 3.5em;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+}
+
+
+/*
+ * EVENTS
+ */
+
+/* Styles for events list buttons */
+smt-event a.btn.btn-primary {
+  background-color: #337AB7;
+  border-color: #2E6DA4;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/* Styles for the date of the events */
+smt-event .dates span.icon.icon-calendar > a > span {
+  color: #337Ab7;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11.9px;
+  font-weight: 300;
+}
+
+
+/* Styles for the categories */
+#smartvel .events smt-event .list h3.category {
+  background-color: #98BBE5;
+  color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 11.9px;
+  font-weight: 300;
+}
+
+
+/* Styles for the title of the events */
+smt-event h2.title {
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17.5px;
+  font-weight: 600;
+}
+
+
+/* Styles for the Place of the events */
+smt-event h4.place > span {
+  color: #000;
+  font-family: "Open Sans",sans-serif;
+  font-size: 11.9px;
+  font-weight: 300;
+}
+
+
+/* Styles for the Description of events */
+smt-description .content > p {
+  color: #000;
+  font-family: "Open Sans",sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
