@@ -27,7 +27,7 @@
     "angular-touch": "~1.3.16",
     "angular-translate": "~2.6.1",
     "ngDraggable": "~0.1.8",
-    "bootstrap-sass-official": "~3.2.0",
+    "bootstrap-sass-official": "~3.3.4",
     "angular-bootstrap-datetimepicker": "~0.3.13",
     "bootstrap_dropdowns_enhancement": "git://github.com/behigh/bootstrap_dropdowns_enhancement.git",
     "matchmedia-ng": "~1.0.5",
