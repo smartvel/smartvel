@@ -1,0 +1,329 @@
+/*Common*/
+smt-calendar *,
+smt-travelplan *,
+smt-highlights *,
+smt-map * {
+    box-sizing: border-box;
+}
+.smt-common-theme-btn,
+.smt-common-theme-input-text,
+.smt-common-theme-dropdown {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.smt-common-theme-dropdown {
+  background-color: white;
+}
+
+.smt-searchbox-theme-dropdown-date-list,
+.smt-searchbox-theme-dropdown-entities-list,
+.smt-searchbox-theme-label,
+.smt-travelplan-theme-selector-dropdown-list {
+ font-size: 20px;
+}
+
+.smt-common-theme-btn-primary,
+.smt-common-theme-btn-primary:visited,
+.smt-common-theme-btn-primary:hover {
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-color: black;
+    text-decoration: none;
+}
+.smt-common-theme-btn-secondary,
+.smt-common-theme-btn-secondary:visited,
+.smt-common-theme-btn-secondary:hover {
+    text-transform: uppercase;
+    color: white;
+    background-color: lightgrey;
+    text-decoration: none;
+    font-weight: bold;
+}
+.smt-common-theme-btn-default,
+.smt-common-theme-btn-default:visited,
+.smt-common-theme-btn-default:hover {
+    text-transform: uppercase;
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+.smt-common-theme-btn-danger,
+.smt-common-theme-btn-danger:visited,
+.smt-common-theme-btn-danger:hover {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.smt-separator {
+    color: lightgray;
+}
+/* AGENDA */
+
+/*Days out of trip day*/
+.smt-travelplan-theme-agenda-out_of_trip_day {
+  background-color: rgba(104, 104, 104, 0.4);
+}
+
+/*When an event is no available*/
+.smt-travelplan-theme-agenda-unavailable_day {
+  background-color: rgba(60, 60, 60, 0.2);
+}
+
+/*Agenda header*/
+.smt-travelplan-theme-agenda-month-header {
+  background-color: black;
+  font-size: 1.5em;
+}
+
+/*Agenda header text*/
+.smt-travelplan-theme-agenda-month-text {
+  color: white;
+  text-transform: uppercase;
+}
+
+/*Agenda weekdays (text)*/
+.smt-travelplan-theme-agenda-day-text {
+  font-size: 1.2em;
+  color: black;
+}
+
+/*Agenda weekdays (number)*/
+.smt-travelplan-theme-agenda-day-number {
+  font-size: 2em;
+  color: black;
+  font-weight: bolder;
+}
+
+/*Agenda individual days*/
+.smt-travelplan-theme-agenda-day {
+  border-color: black;
+}
+
+/*Agenda months border*/
+.smt-travelplan-theme-month-border {
+  border-color: black;
+}
+
+/*Agenda days border when drag enters*/
+.smt-travelplan-theme-scheduled-activity .drag-enter {
+  border-color: red;
+}
+
+
+/*AGENDA SELECTOR*/
+/*Selected events text*/
+.smt-travelplan-theme-carousel-selected_items {
+  color: black;
+}
+
+/*"Recommended by" text*/
+.smt-travelplan-theme-carousel-recommended_items {
+  color: black;
+}
+
+/*No events selected text*/
+.smt-travelplan-theme-carousel-nothing_selected {
+  font-family: 'Fira Sans';
+  font-size: 25px;
+  text-align: center;
+  color: lightgray;
+}
+
+/*Agenda Dates selector*/
+.smt-searchbox-theme-textsearcher,
+.smt-searchbox-theme-dropdown-entities,
+.smt-searchox-theme-dropdown-date,
+.smt-travelplan-theme-selector-dropdown {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  font-style: italic;
+}
+
+.smt-searchbox-theme-dropdown-entities-list .smt-searchbox-theme-label {
+  font-weight: normal;
+}
+
+
+/*AGENDA CARDS*/
+/*Agenda cards title*/
+.smt-card-theme-light-title {
+  /*font-size: 18px;*/
+  color: black;
+  font-weight: bold;
+}
+/*Agenda cards category*/
+.smt-card-theme-light-category {
+  font-size: 11px;
+  color: black;
+}
+/*Agenda cards place*/
+.smt-card-theme-light-place {
+  font-size: 11px;
+  color: black;
+}
+/*Agenda cards date*/
+.smt-card-theme-light-date {
+  font-size: 11px;
+  color: black;
+}
+/*Agenda cards cross*/
+.smt-card-theme-light-cross {
+  color: black;
+}
+/*Agenda card (background)*/
+.smt-card-theme-light {
+  border-color: rgba(0,0,0,0.084);
+  background-color: white;
+  font-size: 14px;
+}
+
+
+
+/*CARDS*/
+
+
+/*Change card border-color*/
+.smt-card-theme-deckgrid-ctas,
+.smt-card-theme-deckgrid {
+  border-color: black;
+}
+
+/*Card background*/
+.smt-card-theme-deckgrid {
+  background-color: white;
+}
+
+
+/*Card title*/
+.smt-card-theme-deckgridmap-title,
+.smt-card-theme-deckgrid-title {
+  font-weight: 700;
+  font-size: 1.8em;
+  line-height: 1em;
+  color: black;
+  text-decoration: none;
+}
+.smt-card-theme-deckgrid-title:hover,
+.smt-card-theme-deckgrid-title:focus {
+  color: black;
+  text-decoration: none;
+}
+/*Card description*/
+.smt-card-theme-deckgridmap-description,
+.smt-card-theme-deckgrid-description {
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 2em;
+}
+/*Card facet*/
+.smt-card-theme-deckgridmap-facet,
+.smt-card-theme-deckgrid-facet {
+  font-family: 'Fira Sans';
+  font-weight: 300;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/*Card data (over photo)*/
+.smt-card-theme-deckgrid-data {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 0.9em;
+}
+/*Card place (over photo)*/
+.smt-card-theme-deckgrid-place {
+  color: white;
+}
+/*Card taxonomies(over photo)*/
+.smt-card-theme-deckgrid-taxonomies {
+  color: white;
+}
+
+/*Card "fix-me" button*/
+.smt-card-theme-deckgrid-fix_me {
+  font-size: 11px;
+  color: #dedede;
+}
+
+/*Dialog "fix-me" text*/
+.smt-card-theme-deckgrid-confirm {
+  font-size: 18px;
+}
+/*Dialog "fix-me" buttons*/
+.smt-card-theme-deckgrid-confirm-close,
+.smt-card-theme-deckgrid-confirm-accept {
+  font-size: 14px;
+}
+
+/*Card map "show more" button*/
+.smt-description-theme-show {
+  color: lightgrey;
+}
+
+
+/*Card ctas background*/
+/*
+.smt-travelplan-theme-card-ctas {
+  background-color: white;
+}
+*/
+/*Card cta text*/
+.smt-card-theme-deckgridmap-ctas,
+.smt-card-theme-deckgrid-ctas {
+  font-weight: 700;
+}
+
+
+/*Card cta add text*/
+.smt-card-theme-deckgridmap-ctas-add,
+.smt-card-theme-deckgrid-ctas-add {
+  text-decoration: underline;
+  font-style: italic;
+}
+.smt-card-theme-deckgridmap-ctas-remove,
+.smt-card-theme-deckgrid-ctas-remove {
+  text-transform: none;
+  font-weight: normal;
+  font-style: italic;
+
+  background-color: black;
+  text-transform: none;
+  font-weight: bold;
+  color: white;
+
+
+}
+/*Card cta add and remove text*/
+.smt-card-theme-deckgridmap-ctas-remove,
+.smt-card-theme-deckgridmap-ctas-add,
+.smt-card-theme-deckgrid-ctas-remove,
+.smt-card-theme-deckgrid-ctas-add {
+  font-size: 13px;
+}
+
+/*Card cta schedule text*/
+.smt-card-theme-deckgridmap-ctas-remove-scheduled,
+.smt-card-theme-deckgrid-ctas-remove-scheduled {
+  text-transform: uppercase;
+}
+/*Card cta selected*/
+/*
+.smt-travelplan-theme-card-map-selected,
+.smt-travelplan-theme-card-selected {
+  background-color: black;
+  text-transform: none;
+  font-weight: bold;
+  color: white;
+}
+*/
+/* Leyend */
+.smt-travelplan-leyend {
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
