@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic integration of Smartvel products</title>
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/angular/angular-csp.css" />
+  <link rel="stylesheet" href="bower_components/angular-bootstrap-datetimepicker/src/css/datetimepicker.css" />
+  <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="bower_components/leaflet-search/dist/leaflet-search.src.css" />
+  <link rel="stylesheet" href="bower_components/leaflet-sidebar/src/L.Control.Sidebar.css" />
+  <!-- endbower -->
+  <!--Load Smartvel styles-->
+  <link rel="stylesheet" href="../styles/smartvel-travelplan.css">
+  <link rel="stylesheet" href="../styles/defaults_themes.css">
+  <link rel="stylesheet" href="../styles/extra_travelplan.css">
+</head>
+<body>
+  <h1>Map</h1>
+  <!--Insert a node whose id is "smartvel"-->
+  <div id="smartvel">
+    <h1>
+      {{'TRAVELPLAN_TEXT' | translate}}
+    </h1>
+  <smt-travelplan
+    search-box
+    key="5d2cb6ff-cb05-4008-a5f4-0865db5ee80d"
+    latitude="41.390205"
+    longitude="2.154007"
+    zoom="12"
+    map-type="cartodb"
+    map-style="[{'featureType':'all','elementType':'all','stylers':[{'saturation':-100},{'gamma':0.5}]},{'featureType':'all','elementType':'geometry.stroke','stylers':[{'visibility':'on'}]},{'featureType':'landscape.man_made','elementType':'all','stylers':[{'visibility':'off'}]},{'featureType':'poi','elementType':'labels','stylers':[{'visibility':'off'}]},{'featureType':'poi.business','elementType':'all','stylers':[{'visibility':'off'}]},{'featureType':'poi.government','elementType':'all','stylers':[{'visibility':'off'}]}]">
+    <div name="conditions">
+        <div class="terms_conditions">
+            <b>Términos y condiciones</b>
+            Aquí puede incluir sus términos y condiciones. Esto es simplemente un sistema de testeo para la aplicación demo de Smartvel.
+        </div>
+    </div>
+
+</smt-travelplan>
+
+  </div>
+<!--Conditionally load the library for old browsers-->
+
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="bower_components/angular-bootstrap-datetimepicker/src/js/datetimepicker.js"></script>
+  <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+  <script src="bower_components/angular-deckgrid/angular-deckgrid.js"></script>
+  <script src="bower_components/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="bower_components/angular-touch/angular-touch.min.js"></script>
+  <script src="bower_components/angular-translate/angular-translate.min.js"></script>
+  <script src="bower_components/es5-shim/es5-shim.min.js"></script>
+  <script src="bower_components/es5-shim/es5-sham.min.js"></script>
+  <script src="bower_components/FileSaver/FileSaver.js"></script>
+  <script src="bower_components/ics.js/ics.js"></script>
+  <script src="bower_components/json3/lib/json3.min.js"></script>
+  <script src="bower_components/leaflet/dist/leaflet.js"></script>
+  <script src="bower_components/lodash/lodash.js"></script>
+  <script src="bower_components/matchmedia/matchMedia.js"></script>
+  <script src="bower_components/matchmedia-ng/matchmedia-ng.js"></script>
+  <script src="bower_components/moment/min/moment-with-locales.js"></script>
+  <script src="bower_components/ngDraggable/ngDraggable.js"></script>
+  <script src="bower_components/ng-multi-transclude/src/multi-transclude.js"></script>
+  <script src="bower_components/leaflet-search/dist/leaflet-search.src.js"></script>
+  <script src="bower_components/angular-bindonce/bindonce.js"></script>
+  <script src="bower_components/leaflet-sidebar/src/L.Control.Sidebar.js"></script>
+  <!-- endbower -->
+
+<!--Load Smartvel libs-->
+<script src="../scripts/smartvel-travelplan.js"></script>
+
+
+<!--Initialize the product-->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      angular.bootstrap(document, ['smartvel-travelplan']);
+  });
+</script>
+</body>
+</html>
